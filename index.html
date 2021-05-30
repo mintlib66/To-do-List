@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <title>To do</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="editor">
+        <h2 class="editor__text">Add new To-do</h2>
+        <div>
+          <div class="editor__input">
+            <input
+              type="text"
+              class="editor__input-title"
+              placeholder="Write title"
+            />
+            <textarea
+              class="editor__input-body"
+              row="3"
+              placeholder="Write your to do..."
+            ></textarea>
+            <div class="editor__btns">
+              <button class="editor__add">Add</button>
+              <button class="editor__clear">Clear</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="todo-list">
+        <h1 class="todo-list__title">To-dos</h1>
+        <ul class="todo-list__list">
+          <li class="todo-list__item">
+            <h2 class="todo-list__item-title">My To do</h2>
+            <p class="todo-list__item-body">This is my to do.</p>
+            <div class="todo-list__item-btns">
+              <button class="item__edit">edit</button>
+              <button class="item__delete">delete</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
