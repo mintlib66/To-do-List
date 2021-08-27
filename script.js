@@ -145,7 +145,7 @@ function cancelEditTodo(){
 
 //todo delete
 function deleteTodo(){
-    this.parentNode.remove();
+    this.parentNode.parentNode.remove();
 }
 
 if(input_add_btn){
